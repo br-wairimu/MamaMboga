@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-terracotta: #C0624A;
+  --color-terracotta-light: #D4846E;
+  --color-terracotta-dark: #9E4D38;
+  --color-forest: #2B5219;
+  --color-forest-light: #3D7025;
+  --color-forest-pale: #EAF0E4;
+  --color-sand: #F0E3C8;
+  --color-sand-deep: #E0CBA8;
+  --color-sand-light: #F8F2E7;
+  --color-ink: #1C1712;
+  --color-ink-muted: #5A4F43;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'DM Mono', 'Courier New', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #F0E3C8;
+  color: #1C1712;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #C0624A55;
+  border-radius: 3px;
+}
